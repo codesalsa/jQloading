@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JQ Loading Test</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+	<div class="container">
+		<div id="loader01" class="loader-item active">
+			<div class="loader" data-initial="20" data-maxlimit="160"></div>
+			<div class="buttons">
+				<button class="plus">+10</button>
+				<button class="minus">-10</button>
+			</div>
+		</div>
+		<div id="loader02" class="loader-item">
+			<div class="loader" data-initial="40" data-maxlimit="90"></div>
+			<div class="buttons">
+				<button class="plus">+10</button>
+				<button class="minus">-10</button>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.jqloading.js"></script>
+	<script>
+        $(document).ready( function() {
+            $('#loader01').jqloading();
+            $('#loader02').jqloading();
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+/* line 1, C:/Users/CIBERSPRING/Desktop/jqloading/assets/sass/style.scss */
+.container {
+  max-width: 800px;
+  margin: 100px auto 0;
+}
+
+/* line 5, C:/Users/CIBERSPRING/Desktop/jqloading/assets/sass/style.scss */
+.loader {
+  background: #fafafa;
+  border: 1px solid #ccc;
+  height: 20px;
+  margin: 0 0 10px;
+  max-width: 500px;
+  padding: 5px;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* line 16, C:/Users/CIBERSPRING/Desktop/jqloading/assets/sass/style.scss */
+.load-animate {
+  background: green;
+  display: table;
+  height: 100%;
+  transition: all 0.2s linear 0s;
+}
+
+/* line 22, C:/Users/CIBERSPRING/Desktop/jqloading/assets/sass/style.scss */
+.loading-text {
+  color: #000;
+  height: 20px;
+  left: 50%;
+  margin-left: -50px;
+  margin-top: -10px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100px;
+  z-index: 2;
+}
+
+/* line 34, C:/Users/CIBERSPRING/Desktop/jqloading/assets/sass/style.scss */
+.loader-item {
+  margin: 0 0 20px;
+}
+
+/*# sourceMappingURL=../css/style.map */

@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../sass/style.css",
+	"sources": [
+		"../sass/style.scss"
+	],
+	"sourcesContent": [
+		".container{\r\n\t\t\tmax-width:800px;\r\n\t\t\tmargin:100px auto 0;\r\n\t\t}\r\n\t\t.loader {\r\n\t\t    background: #fafafa;\r\n\t\t    border: 1px solid #ccc;\r\n\t\t    height: 20px;\r\n\t\t    margin: 0 0 10px;\r\n\t\t    max-width: 500px;\r\n\t\t    padding: 5px;\r\n\t\t    position: relative;\r\n\t\t    width: 100%;\r\n\t\t    overflow:hidden;\r\n\t\t}\r\n\t\t.load-animate{\r\n\t\t    background: green;\r\n\t\t    display: table;\r\n\t\t    height: 100%;\r\n\t\t    transition: all 0.2s linear 0s;\r\n\t\t}\r\n\t\t.loading-text{\r\n\t\t    color: #000;\r\n\t\t    height: 20px;\r\n\t\t    left: 50%;\r\n\t\t    margin-left: -50px;\r\n\t\t    margin-top: -10px;\r\n\t\t    position: absolute;\r\n\t\t    text-align: center;\r\n\t\t    top: 50%;\r\n\t\t    width: 100px;\r\n\t\t    z-index: 2;\r\n\t\t}\r\n\t\t.loader-item{\r\n\t\t\tmargin:0 0 20px;\r\n\t\t}"
+	],
+	"mappings": ";AAAA,AAAA,UAAU,CAAA;EACP,SAAS,EAAC,KAAM;EAChB,MAAM,EAAC,YAAa;CACpB;;;AACD,AAAA,OAAO,CAAC;EACJ,UAAU,EAAE,OAAQ;EACpB,MAAM,EAAE,cAAe;EACvB,MAAM,EAAE,IAAK;EACb,MAAM,EAAE,QAAS;EACjB,SAAS,EAAE,KAAM;EACjB,OAAO,EAAE,GAAI;EACb,QAAQ,EAAE,QAAS;EACnB,KAAK,EAAE,IAAK;EACZ,QAAQ,EAAC,MAAO;CACnB;;;AACD,AAAA,aAAa,CAAA;EACT,UAAU,EAAE,KAAM;EAClB,OAAO,EAAE,KAAM;EACf,MAAM,EAAE,IAAK;EACb,UAAU,EAAE,kBAAmB;CAClC;;;AACD,AAAA,aAAa,CAAA;EACT,KAAK,EAAE,IAAK;EACZ,MAAM,EAAE,IAAK;EACb,IAAI,EAAE,GAAI;EACV,WAAW,EAAE,KAAM;EACnB,UAAU,EAAE,KAAM;EAClB,QAAQ,EAAE,QAAS;EACnB,UAAU,EAAE,MAAO;EACnB,GAAG,EAAE,GAAI;EACT,KAAK,EAAE,KAAM;EACb,OAAO,EAAE,CAAE;CACd;;;AACD,AAAA,YAAY,CAAA;EACX,MAAM,EAAC,QAAS;CAChB",
+	"names": []
+}
